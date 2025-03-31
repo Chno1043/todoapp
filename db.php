@@ -1,9 +1,9 @@
 <?php
 // ここを自分のMySQLの設定に変更！
-$host = 'mysql80.yknotodolist.sakura.ne.jp'; // MySQLが動いているサーバー
-$dbname = 'yknotodolist_todo_app'; // 使いたいデータベース名
-$username = 'yknotodolist_todo_app'; // MySQLのユーザー名（デフォルトは 'root'）
-$password = 'HMSMykno1225'; // 自分のMySQLのパスワード（設定したもの）
+$host = ''; // MySQLが動いているサーバー
+$dbname = ''; // 使いたいデータベース名
+$username = ''; // MySQLのユーザー名（デフォルトは 'root'）
+$password = ''; // 自分のMySQLのパスワード（設定したもの）
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
